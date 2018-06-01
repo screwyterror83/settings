@@ -1,0 +1,27 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[user]
+	name = screwyterror83
+	email = screwyterror83@gmail.com
+	signingkey = DB4D4161
+[commit]
+	gpgsign = true
+[core]
+	editor = vim
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+  showbranch = auto
+	ui = true
+[log]
+  date = short
+[format]
+  pretty = '%C(yellow)%h%Creset %C(magenta)%cd%Creset %d %s'
+
+[push]
+	default = simple

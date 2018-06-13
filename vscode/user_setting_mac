@@ -1,5 +1,6 @@
 {
-    "editor.fontSize": 16,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontSize": 14,
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
     "files.exclude": {
@@ -13,7 +14,8 @@
         "suppressShowKeyBindingsNotice": true
     },
     "gitlens.historyExplorer.enabled": true,
-    "team.showWelcomeMessage": false,
     "git.autofetch": true,
     "terminal.integrated.fontSize": 14,
-}
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "block",
+    "code-runner.runInTerminal": true,
